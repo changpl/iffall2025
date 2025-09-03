@@ -1,0 +1,40 @@
+.quotes {
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 0.8rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.line {
+    display: contents;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.direction {
+    font-style: italic;
+    color: #6b6b6b;
+    background-color: #ffebef;
+}
+
+html {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #fff9fa;
+}
+
+h1 {
+    text-align: center;
+    font-size: 72px;
+    font-family: "Story Script", system-ui;
+    font-weight: 400;
+    color: #9d1010;
+    font-style: normal;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+}
