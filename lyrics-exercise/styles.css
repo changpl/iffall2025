@@ -1,0 +1,48 @@
+h1 {
+    font-weight: bold;
+    font-size: 64px;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 0.5;
+}
+
+header {
+    font-family: "Averia Serif Libre", serif;
+    text-align: center;
+    background-color: #ca7c7c;
+    padding: 1rem;
+    margin-left: 128px;
+    margin-right: 128px;
+    border-radius: 16px;
+    line-height: 0.5;
+}
+
+main {
+    margin-left: 128px;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#spotify {
+    border-radius: 12px;
+    border-width: 0px;
+    width: 840px;
+    height: 152px;
+}
+
+.tag {
+    font-style: italic;
+    color: #ca7c7c;
+}
