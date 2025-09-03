@@ -20,6 +20,30 @@
     background-color: #ffebef;
 }
 
+.pv {
+    color:#000000;
+}
+
+.db {
+    color:#875800;
+}
+
+.mayor {
+    color:#308900;
+}
+
+.es{
+    color:#d90000;
+}
+
+.rs {
+    color:#5900ff;
+}
+
+.wz {
+    color:#ce00ce;
+}
+
 html {
     font-family: Arial, Verdana, sans-serif;
     background-color: #fff9fa;
