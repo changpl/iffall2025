@@ -11,10 +11,11 @@
 }
 
 .scene {
-    font-size: 32px;
+    font-size: 44px;
     font-family: "Story Script", system-ui;
     color: #9d1010;
     font-style: normal;
+    font-weight: bold;
 }
 
 .name {
