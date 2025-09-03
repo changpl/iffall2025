@@ -10,6 +10,13 @@
     display: contents;
 }
 
+.scene {
+    font-size: 32px;
+    font-family: "Story Script", system-ui;
+    color: #9d1010;
+    font-style: normal;
+}
+
 .name {
     font-weight: bold;
 }
@@ -21,27 +28,27 @@
 }
 
 .pv {
-    color:#000000;
+    background-color:#7ddaff;
 }
 
 .db {
-    color:#875800;
+    background-color:#ffd890;
 }
 
 .mayor {
-    color:#308900;
+    background-color:#adff82;
 }
 
 .es{
-    color:#d90000;
+    background-color:#ff8282;
 }
 
 .rs {
-    color:#5900ff;
+    background-color:#c6a7ff;
 }
 
 .wz {
-    color:#ce00ce;
+    background-color:#ffa9ff;
 }
 
 html {
@@ -53,7 +60,7 @@ h1 {
     text-align: center;
     font-size: 72px;
     font-family: "Story Script", system-ui;
-    font-weight: 400;
+    font-weight: bold;
     color: #9d1010;
     font-style: normal;
 }
