@@ -13,7 +13,7 @@
 .scene {
     font-size: 44px;
     font-family: "Story Script", system-ui;
-    color: #9d1010;
+    color: #ffffff;
     font-style: normal;
     font-weight: bold;
 }
@@ -24,37 +24,37 @@
 
 .direction {
     font-style: italic;
-    color: #6b6b6b;
-    background-color: #ffebef;
+    color: #ffebef;
 }
 
 .pv {
-    color:#000000;
+    color:#fffbe1;
 }
 
 .db {
-    color:#6d9eff;
+    color:#bdd3ff;
 }
 
 .mayor {
-    color:#70b04d;
+    color:#caffae;
 }
 
 .es{
-    color:#a83131;
+    color:hsl(0, 100%, 80%);
 }
 
 .rs {
-    color:#9c66ff;
+    color:#ba95ff;
 }
 
 .wz {
-    color:#ff44ff;
+    color:#ffa6ff;
 }
 
 html {
-    font-family: Arial, Verdana, sans-serif;
-    background-color: #fff9fa;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff;
+    background-color: #000000;
 }
 
 h1 {
@@ -62,11 +62,12 @@ h1 {
     font-size: 72px;
     font-family: "Story Script", system-ui;
     font-weight: bold;
-    color: #9d1010;
+    color: #ffffff;
     font-style: normal;
 }
 
 footer {
     text-align: center;
     font-size: 10px;
+    color: #ffffff;
 }
