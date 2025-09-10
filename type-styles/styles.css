@@ -1,0 +1,77 @@
+* { margin: 0 }
+
+header { 
+    text-align: center; 
+    position: sticky;
+    top: 0px;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    border-bottom: 4px solid black;
+}
+
+footer {
+    padding: 0.5rem;
+}
+
+html {
+    font-family: 'Courier New', monospace;
+    font-size: 36px;
+    color: #b2b2b2;
+    line-height: 1.4;
+}
+
+section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-left: 64px;
+    margin-right: 64px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    background-color: aliceblue;
+    border: 4px solid black;
+    border-radius: 144px;
+}
+
+h1 { font-size: 48px; }
+
+h2 { 
+    font-size: 24px; 
+    color: #c4c5d9;
+    text-align: center;
+}
+
+h3 { 
+    font-size: 16px; 
+    margin-top: 16px;
+}
+
+.styled {
+    font-family: "Raleway", sans-serif;
+    color: #000000;
+}
+
+.normal { 
+    font-weight: normal; 
+    font-style: normal;
+    letter-spacing: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.lighter { font-weight: lighter; }
+.bold { font-weight: bold; }
+
+.italics { font-style: italic; }
+
+.narrow { letter-spacing: -0.1em; }
+.wide { letter-spacing: 0.1em; }
+
+.lower { text-transform: lowercase; }
+.capital { text-transform: capitalize; }
+.upper { text-transform: uppercase; }
+
+.underline { text-decoration: underline; }
+.strikethrough { text-decoration: line-through; }
+.overline { text-decoration: overline; }
