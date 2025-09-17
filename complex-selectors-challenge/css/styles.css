@@ -7,7 +7,7 @@ p { line-height: 1.6; }
     text-transform: uppercase;
 }
 
-h1 { 
+.shows h1 { 
     font-size: 2.5rem;
     font-weight: lighter; 
 }
