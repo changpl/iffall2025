@@ -23,9 +23,9 @@ img { width: 100%; }
 
 .shows > li { border-top: 1px solid black; }
 
-.selected { 
-    font-weight: bold;
+.selected > * { 
     color: black; 
+    font-weight: bold;
 }
 
 a > div { font-size: 0.8rem; }
