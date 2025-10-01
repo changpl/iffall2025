@@ -40,7 +40,7 @@ header {
         float: right;
         margin-left: 42px;
         margin-bottom: 20px;
-        border: 1px solid white;
+        border: 1.5px solid #fbff00;
     }
 
     h3 {
@@ -84,19 +84,18 @@ header {
     row-gap: 24px;
 }
 
-.box {
-    display: flex;
-}
+.box { display: flex; }
 
 .caption { margin-left: 12px; }
 
 .photo-title {
     font-weight: bold;
     font-size: 20px;
+    margin-top: 1px;
 }
 
 .photo-description { 
-    margin-top: 9px;
+    margin-top: 8px;
     margin-right: 20px;
     font-size: 18px; 
 }
