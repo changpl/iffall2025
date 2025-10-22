@@ -1,0 +1,452 @@
+body {
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 40px;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.button_container {
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+a#btn_spotify {
+    display: inline-block;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px 40px 0 40px;
+    background-color: #2ebd59;
+    border: 2px solid #2ebd59;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+a#btn_spotify:hover {
+    background-color: #fff;
+    border: 2px solid #000;
+    color: #000;
+}
+
+a#btn_amazon {
+    display: block;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 75px;
+    padding-top: 8px;
+    background-color: #232f3e;
+    color: #fff;
+    text-align: center;
+    font-size: 60px;
+    transition: all .2s;
+}
+
+a#btn_amazon:hover {
+    background-color: #fc9a18;
+}
+
+a#btn_twitter {
+    display: inline-block;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 105px;
+    padding: 10px 30px 0 30px;
+    background-color: #56cdf1;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#btn_twitter:hover {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+    background: rgb(46,191,236); /* Old browsers */
+    background: -moz-linear-gradient(-45deg,  rgba(46,191,236,1) 0%, rgba(40,165,203,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg,  rgba(46,191,236,1) 0%,rgba(40,165,203,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+a#btn_indiegogo {
+    display: inline-block;
+    position: relative;
+    margin:auto;
+    margin-top: 100px;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #eb1478;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: -2px;
+    transition: all .2s;
+}
+
+a#btn_indiegogo:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #eb1478;
+    transition: all .5s;
+}
+
+a#btn_indiegogo:hover {
+    color: #fff;
+}
+
+a#btn_indiegogo:hover:before {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+a#btn_indiegogo span {
+    position: relative;
+    z-index: 10;
+}
+
+
+.me {
+    display: grid;
+    place-items: center;
+}
+
+#army {
+    border: 6px solid #ffcc01;
+    background-color: black;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    transition: all 0.5s;
+
+    i {
+        color: #292929;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 72px;
+        transition: transform 0.5s ease, color 0.5s ease;
+    }
+
+    div {
+        color: white;
+        font-family: 'Gill Sans MT', sans-serif;
+        font-size: 36px;
+        font-weight: 800;
+        text-transform: uppercase;
+        z-index: 99;
+        text-decoration: none;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+#army:hover {
+    i { 
+        color: rgb(255, 204, 1);
+        transform: translate(-50%, -50%) rotate(72deg);
+    }
+}
+
+#oldnavy {
+    background: repeating-linear-gradient(
+        to right,
+        black,
+        black 40px,
+        #083d69 40px,
+        #083d69 80px
+    );
+
+    text-decoration: none;
+    font-size: 48px;
+    font-family: 'Arial Narrow', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
+#oldnavy:hover {
+    background: repeating-linear-gradient(
+        to right,
+        #083d69,
+        #083d69 40px,
+        black 40px,
+        black 80px
+    );
+}
+
+#electra {
+    position: relative;
+    text-decoration: none;
+    border: 2px solid #00adbb;
+    padding: 8px;
+    border-radius: 8px;
+
+    i {
+        color: #00adbb;
+        font-size: 36px;
+    }
+
+    span {
+        font-size: 36px;
+        font-weight: 550;
+        font-family: "Splash", cursive;
+        color: #00adbb;
+    }
+}
+
+@keyframes burn {
+  from { transform: rotate(-7deg); }
+  33% { transform: rotate(4deg); }
+  66% { transform: rotate(-4deg); }
+  to { transform: rotate(7deg); }
+}
+
+#electra:hover {
+    animation: burn 0.1s linear infinite;
+    animation-direction: alternate;
+}
+
+#facebook {
+    height: 100px;
+    width: 100px;
+    background-color: #0866ff;
+    border-radius: 50%;
+    text-decoration: none;
+    position: relative;
+    transition: all 0.5s;
+    display: grid;
+    place-items: center;
+
+    div {
+        z-index: 9;
+        font-size: 120px;
+        font-weight: 700;
+        font-family: Arial, sans-serif;
+        color: white;
+        transition: all 0.5s;
+    }
+}
+
+#facebook:hover {
+    height: 150px;
+    width: 150px;
+    div { font-size: 64px; }
+}
+
+#instagram {
+    font-family: "Pacifico",  cursive;
+    text-decoration: none;
+    font-size: 48px;
+    color: black;
+}
+
+#instagram:hover {
+    background: linear-gradient(
+        45deg,
+        #f0be33 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2394 75%,
+        #a118bc 100%
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+#hsn {
+    background-color: #0077c8;
+    color: white;
+    padding: 1rem;
+    border-radius: 24px;
+    font-size: 48px;
+    text-decoration: none;
+    font-family: Georgia, serif;
+    transition: all 0.5s;
+}
+
+#hsn:hover {
+    box-shadow: 0 6px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+#velocity {
+    text-decoration: none;
+    position: relative;
+
+    i {
+        color: #ee3220;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translate(0, 50%);
+        z-index: -9;
+        font-size: 48px;
+        transition: all 0.5s;
+    }
+
+    span { 
+        color: black; 
+        font-style: italic;
+        z-index: 99;
+        font-size: 24px;
+        font-family: Impact, sans-serif;
+    }
+}
+
+#velocity:hover i {
+    transform: translate(100%, 50%);
+}
+
+#tuckerallen {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    border: 1px solid #585858;
+    color: #585858;
+    font-family: Times, serif;
+    transition: all 0.5s;
+}
+
+#tuckerallen:hover {
+    background-color: black;
+    color: #ddd;
+    border: 1px solid #ddd;
+}
+
+#npr {
+    text-decoration: none;
+    display: grid;
+    place-items: center;
+    position: relative;
+
+    div {
+        color: white;
+        font-family: Geneva, sans-serif;
+        font-size: 24px;
+        height: 48px;
+        width: 48px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -999;
+        transition: all 0.8s;
+        display: grid;
+        place-items: center;
+    }
+
+    #n { 
+        background-color: #d62021;
+        z-index: -9;
+    }
+
+    #p { 
+        background-color: black; 
+        z-index: 9;
+    }
+
+    #r { 
+        background-color: #237bbd; 
+        z-index: -9;
+    }
+}
+
+#npr:hover {
+    #n { transform: translate(-200%, -50%); }
+
+    #r { transform: translate(100%, -50%); }
+}
+
+#foreflight {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 8px;
+    transition: all 0.5s;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+    
+    i {
+        height: 36px;
+        width: 36px;
+        display: grid;
+        place-items: center;
+        border: 2px solid white;
+        color: white;
+        border-radius: 50%;
+        font-size: 24px;
+        transition: all 0.5s;
+        z-index: 999;
+    }
+
+    div {
+        color: white;
+        font-family:  Helvetica, sans-serif;
+        font-size: 36px;
+    }
+}
+
+#foreflight:hover {
+    background-color: rgb(85, 82, 135);
+    
+    i {
+        animation: spin 1s linear infinite;
+    }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
