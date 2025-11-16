@@ -377,7 +377,7 @@ footer .top:hover {
 .history .timeline::before {
     content: "";
     width: 2px;
-    top: 188px;
+    top: 260px;
     bottom: 0;
     left:50%; 
     background-color: var(--green);
@@ -515,6 +515,7 @@ footer .top:hover {
     flex-direction: column;
     gap: 5rem;
     justify-content: center;
+    align-items: center;
     margin-top: 1rem;
     margin-bottom: 5rem;
 }
@@ -667,6 +668,8 @@ footer .top:hover {
 }
 
 @media (max-width: 768px) {
+    h1 { font-size: 72px; }
+
     .index .landing {
         h2 { font-size: 120px; }
 
@@ -687,7 +690,13 @@ footer .top:hover {
         p { text-align: center; }
     }
 
-    .history .present .img { height: 150px; }
+    .history {
+        .image-container img { height: 100px; }
+
+        .present .img { height: 150px; }
+
+        .timeline::before { top: 250px; }
+    }
 }
 
 @media (max-width: 480px) {
@@ -718,11 +727,7 @@ footer .top:hover {
         padding-top: 3rem;
     }
 
-    .history {
-        .image-container img { height: 100px; }
-
-        .timeline::before { top: 300px; }
-    }
+    .history .timeline::before { top: 260px; }
 
     .preparation {
         .main-image-container { 
